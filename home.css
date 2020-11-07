@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+/*--------------------media--------------------------*/
+@media screen and (max-width: 768px){
+	.mobile-hide{
+		display:none !important;
+	}
+}
+
+@media screen and (min-width: 768px){
+	.desktop-hide{
+		display:none !important;
+	}
+}
+
+/*-----------------------------body-------------------------------------------*/
+
+body{
+	background-color:#cccccc;
+}
+
+/*--------------------------margin------------------------------*/
+.m-tag-margin{
+	margin-top:6px !important;
+	margin-bottom:6px !important;
+}
+
+.m-margin-top{
+	margin-top:38px !important;
+}
+
+.m-tag-margin{
+	margin:8px !important;
+}
+
+
+/*-----------------------padding---------------------------*/
+.m-padded-mini{
+	padding:0.38em !important;
+}
+
+.m-padded-small{
+	padding:0.52em !important;
+}
+
+.m-padded-tb-mini{
+	padding-top:1.1em !important;
+	padding-bottom:1.1em !important;
+}
+
+.m-padded-tb-tiny{
+	padding-top:0.3em !important;
+	padding-bottom:0.3em !important;
+}
+
+.m-padded-tb-small{
+	padding-top:0.5em !important;
+	padding-bottom:0.5em !important;
+}
+
+.m-padded-tb{
+	padding-top:1em !important;
+	padding-bottom:1em !important;
+}
+
+.m-padded-tb-large{
+	padding-top:2em !important;
+	padding-bottom:2em !important;
+}
+
+.m-padded-tb-big{
+	padding-top:3em !important;
+	padding-bottom:3em !important;
+}
+
+.m-padded-tb-huge{
+	padding-top:4em !important;
+	padding-bottom:4em !important;
+}
+
+.m-padded-tb-massive{
+	padding-top:3.8em !important;
+	padding-bottom:3.8em !important;
+}
+
+
+
+/*----------------text---------------------*/
+
+.m-text{
+	font-weight:300 !important;
+	letter-spacing: 1px !important;
+	line-height:1.8;
+}
+.m-text-thin{
+	font-weight:300 !important;
+}
+
+.m-text-spaced{
+	letter-spacing: 1px !important;
+}
+
+.m-text-lined{
+	line-height:1.8;
+}
+
+.m-text-opacity{
+	opacity:0.8 !important;
+}
+
+
+/*---------------------dispplay--------------------------*/
+.m-inline-block{
+	display: inline-block !important;
+}
+
+/*--------------------------position & size-------------------------------*/
+.sidebar-position-size{
+	position: absolute;
+	top:42px;
+	right:0;
+	width: 38px;
+	length:38px;
+}
+
+.m-container{
+	max-width: 66em !important;
+	margin: auto !important;
+}

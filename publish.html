@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<style>
+	a, a:hover, a:focus {
+		text-decoration: none;
+	}
+	
+	body{
+		background:lightgrey;
+	}
+	
+	.border{
+		border-radius: 5px !important;
+		border-width: 3px !important;
+	}
+	
+	.avatar{
+		width:30%;
+		height:auto;
+	}
+	
+	#poster{
+		
+	}
+</style>
+</head>
+<body>
+
+	<!-------------------- navigation bar ------------------------------>
+	<nav class="navbar bg-dark navbar-dark navbar-expand-lg">
+
+		<div class="container">
+			<div class="col-lg-1 col-12">
+				<a href="#" class="navbar-brand text-warning" style="font-size:2em; font-weight:bold">Blog</a>
+			</div>
+			
+			<div class="collapse navbar-collapse justify-content-end col-lg-10 navbar-elements" id="toggleNav">
+				<a href="#" class="nav-item nav-link navbar-elements text-info col-2" style="font-size:1.23em"><svg class="mr-1" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house-door" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.646 1.146a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5H9.5a.5.5 0 0 1-.5-.5v-4H7v4a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6zM2.5 7.707V14H6v-4a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v4h3.5V7.707L8 2.207l-5.5 5.5z"/><path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+					</svg><span>Home</span>
+				</a>
+				<a href="#" class="nav-item nav-link navbar-elements text-info col-2" style="font-size:1.23em"><svg class="mr-1" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-tags" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 2v4.586l7 7L14.586 9l-7-7H3zM2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586V2z"/><path fill-rule="evenodd" d="M5.5 5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/><path d="M1 7.086a1 1 0 0 0 .293.707L8.75 15.25l-.043.043a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 0 7.586V3a1 1 0 0 1 1-1v5.086z"/>
+					</svg><span>Tag</span>
+				</a>
+				<a href="#" class="nav-item nav-link navbar-elements text-info col-2" style="font-size:1.23em"><svg class="mr-1" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-info" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588z"/><circle cx="8" cy="4.5" r="1"/>
+					</svg><span>About me</span>
+				</a>
+				<form class="form-inline col-lg-4 mb-3">
+					<input class="form-control mr-1 col-8 col-lg-8" type="text" placeholder="Search">
+					<button class="btn btn-outline-info col-3 col-lg-3" type="submit">Go</button>
+				</form>
+				
+				<div class="dropdown col-lg-2 d-flex flex-row">
+					<div id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="text-warning col-lg-12 justify-content-center" style="font-size:1.7em">
+						<img src="https://unsplash.it/100/100?image=233" class="rounded-circle avatar">
+						Emir
+					</div>
+					<ul class="dropdown-menu" role="menu">
+						<li><a class="btn btn-danger w-100 h-100" href="#">Sign out</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<button class="navbar-toggler col-lg-1" type="button" data-toggle="collapse" data-target="#toggleNav" aria-controls="toggleNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+		</div>
+	</nav>
+	
+	<nav class="navbar bg-secondary w-100 mb-2 justify-content-center d-flex flex-row">
+		<div class="col-4 col-lg-2">
+			<a href="#" class="btn btn-warning">publish</a>
+		</div>
+		
+		<div class="col-4 col-lg-2">
+			<a href="#" class="btn btn-success">manage</a>
+		</div>
+	</nav>
+	
+	<!----------------------content----------------------------->
+	<div class="conatiner" style="margin-bottom:110px">
+		<form action="# " method="post">
+			<div class="col-12">
+				<input class="form-control mr-2 col-12 col-lg-6 mb-2" type="text" placeholder="Title here...">
+			</div>
+			
+			<div class="col-12">
+				<textarea class="form-control mb-2" placeholder="Your Blog here..." style="height:200px">
+				</textarea>
+			</div>
+			
+			<div class="col-12" id="btn-div">
+				<div class="col-12 col-lg-6 mr-2 d-flex flex-row">
+					<p class="col-2 text-info" style="font-size:1.6em">Tag</p>
+					<select class="form-control col-8" value="choose tag">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+					</select>
+				</div>
+				
+				<div class="col-12 col-lg-6 d-flex flex-row">
+					<p class="col-4 text-info" style="font-size:1.6em">poster picture</p>
+					<input type="text" placeholder="enter URL" class="col-8" style="height:66%">
+				</div>
+			</div>
+			
+			<div class="col-12 d-flex flex-row justify-content-end">
+				<button class="btn btn-secondary mr-2">back</button>
+				<button class="btn btn-info mr-2">save</button>
+				<button class="btn btn-success">publish</button>
+			</div>
+		</form>
+	</div>
+	<!----------------------- Footer-------------------------- -->
+	<footer class="page-footer font-small bg-dark fixed-bottom">
+	  <div class="container">
+	  
+		<div class="row justify-content-center">
+			<div class="col-2">
+				<a class="btn btn-social-icon btn-github" href="#">
+					<i class="fa fa-github" style="font-size:32px;color:pink"></i>
+				</a>
+			</div>
+			
+			<div class="col-2">
+				<a class="btn btn-social-icon btn-linkedin" href="#">
+					<i class="fa fa-linkedin" style="font-size:32px;color:pink"></i>
+				</a>
+			</div>
+		</div>
+			
+	  </div>
+	  <div class="footer-copyright text-center py-3 text-light">© 2020 Copyright:
+		<a href="#" class="text-info"> Yuxiao Fang</a>
+	  </div>
+	</footer>
+<!-- Footer -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+ if ($(window).width() >=992) {
+	$('#content-conatiner').addClass('d-flex flex-row');
+	$('#btn-div').addClass('d-flex flex-row');
+ }
+ 
+ if ($(window).width() <576) {
+	$('#content-conatiner').removeClass('d-flex flex-row');
+	$('#btn-div').removeClass('d-flex flex-row');
+ }
+ $(window).resize(function() {
+   if ($(window).width() >=992) {
+    $('#content-conatiner').addClass('d-flex flex-row');
+	$('#btn-div').addClass('d-flex flex-row');
+   }
+   if ($(window).width() <576) {
+	$('#content-conatiner').removeClass('d-flex flex-row');
+	$('#btn-div').removeClass('d-flex flex-row');
+	}
+ });
+</script>
+</body>
+</html>
